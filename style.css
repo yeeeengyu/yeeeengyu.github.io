@@ -11,7 +11,7 @@
   align-items: center;
   height: 40vh;
 }
-img {
+.MainImage {
   width: 200px;
   height: auto;
 }
@@ -26,4 +26,12 @@ img {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: small;
+}
+.descimg {
+  width: 50px;
+  height: auto;
+}
+#swiftui {
+  width: 100px;
+  height: auto;
 }
