@@ -31,7 +31,7 @@
   width: 50px;
   height: auto;
 }
-#swiftui {
-  width: 100px;
-  height: auto;
+.descc {
+  text-align: center;
+  display: inline-block;
 }
