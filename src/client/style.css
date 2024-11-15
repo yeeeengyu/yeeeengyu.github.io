@@ -1,0 +1,41 @@
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+}
+
+.mainpic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.MainImage {
+  width: 200px;
+  height: auto;
+}
+.mainline {
+  text-align: center;
+}
+#desc {
+  font-family: "Montserrat", sans-serif;
+}
+
+.maindesc {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+.descimg {
+  width: 50px;
+  height: auto;
+}
+.descc {
+  text-align: center;
+  display: inline-block;
+}
+.desclink {
+  width: 100px;
+  height: auto;
+}
