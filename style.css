@@ -35,3 +35,7 @@
   text-align: center;
   display: inline-block;
 }
+.desclink {
+  width: 100px;
+  height: auto;
+}
