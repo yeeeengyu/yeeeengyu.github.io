@@ -10,17 +10,84 @@ body {
   padding: 0;
   border: 0;
 }
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-links {
+  font-weight: 700;
+  font-size: larger;
+}
+
+.space {
+  height: 100px;
+}
+
+/* Main */
+.container {
+  display: flex;
+  flex-direction: row; /* 가로 정렬로 변경 */
+  align-items: center;
+  justify-content: center; /* 중앙 정렬 */
+  gap: 50px; /* 요소 간 간격 조정 */
+}
+.myface img {
+  width: 400px; /* 이미지 크기 조정 */
+  border-radius: 10%;
+}
 .stack {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-
 .stack div {
   text-align: center;
 }
-
 .stack img {  
   width: 100px;
   height: auto;
+}
+.stack-item img {
+  width: 100px;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.contact-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.contact-item {
+  text-align: center;
+  justify-content: center;
+}
+.contact-item img {
+  width: 50px;
+  height: auto;
+  justify-content: center;
 }
