@@ -93,6 +93,12 @@ nav a {
   height: auto;
 }
 
+.stack-achievements-p {
+  display: none;
+}
+.stack-qualifications-p {
+  display: none;
+}
 /* Footer */
 footer {
   display: flex;
@@ -125,5 +131,42 @@ footer {
 @media (max-width: 1143px) {
   .container {
     flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  * {
+    text-align: center;
+  }
+  .myface img {
+    width: 300px;
+    padding-top: 30px;
+  }
+  .stack img {
+    width: 80px;
+  }
+  .stack-item img {
+    width: 80px;
+  }
+  .contact-item img {
+    width: 40px;
+  }
+  .stack-achievements-p {
+    display: block;
+  }
+  .stack-achievements-li {
+    display: none;
+  }
+  .stack-qualifications-p {
+    display: block;
+  }
+  .stack-qualifications-li {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  #maface {
+    margin: 10px;
+    width: 80%;
   }
 }

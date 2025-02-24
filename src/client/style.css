@@ -92,6 +92,12 @@ nav a {
   width: 100px;
   height: auto;
 }
+.stack-achievements-p {
+  display: none;
+}
+.stack-qualifications-p {
+  display: none;
+}
 
 /* Footer */
 footer {
@@ -99,6 +105,7 @@ footer {
   align-items: center;
   gap: 20px;
   justify-content: center;
+  margin: 10px;
 }
 .contact-header {
   font-size: 1.5rem;
@@ -108,6 +115,7 @@ footer {
 .contact-item {
   text-align: center;
   justify-content: center;
+  padding: 10px;
 }
 .contact-item a{
   text-decoration: none;
@@ -115,6 +123,7 @@ footer {
 }
 .contact-item p {
   text-decoration: none;
+  padding: 10px ;
 }
 .contact-item img {
   width: 50px;
@@ -125,5 +134,30 @@ footer {
 @media (max-width: 1143px) {
   .container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    text-align: center;
+  }
+  .stack-qualifications-p {
+    display: block;
+  }
+  .stack-qualifications-li {
+    display: none;
+  }
+  .stack-achievements-li {
+    display: none;
+  }
+  .stack-achievements-p {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  }
+  #maface {
+    margin: 10px;
+    width: 80%;
   }
 }
