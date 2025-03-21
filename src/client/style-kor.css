@@ -127,7 +127,9 @@ footer {
   height: auto;
   justify-content: center;
 }
-
+.stack-projects-p {
+  display: none;
+}
 @media (max-width: 1143px) {
   .container {
     flex-direction: column;
@@ -163,6 +165,12 @@ footer {
     display: none;
   }
   .nav-links {
+    display: none;
+  }
+  .stack-projects-p {
+    display: block;
+  }
+  .stack-projects-li {
     display: none;
   }
   #maface {

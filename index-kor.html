@@ -1,105 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/client/style-kor.css">
-  <script src="src/client/script.js" defer></script>
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <p>경북소프트웨어고등학생, 최인규</p> 
-      <div class="nav-links">
-        <a href="#MAINPAGE"><span>자기소개</span></a> <span>ㅤ</span> <a href="#QUALIFICATION"><span>자격증</span></a> <span>ㅤ</span> <a href="#CONTACT">마무리</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/client/style-kor.css" />
+    <script src="src/client/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p>경북소프트웨어고등학생, 최인규</p>
+        <div class="nav-links">
+          <a href="#MAINPAGE"><span>자기소개</span></a> <span>ㅤ</span>
+          <a href="#QUALIFICATION"><span>자격증</span></a> <span>ㅤ</span>
+          <a href="#CONTACT">마무리</a>
+        </div>
+
+        <a href="index.html"
+          ><button id="right">
+            <p class="button-text">☆English is Here☆</p>
+          </button></a
+        >
+      </nav>
+    </header>
+    <div class="space" id="MAINPAGE"></div>
+    <div class="container">
+      <div class="myface">
+        <img src="src/img/myface.jpg" alt="maface" />
       </div>
-      
-      <a href="index.html"><button id="right"><p class="button-text">☆English is Here☆</p></button></a>
-    </nav>
-  </header>
-  <div class="space"  id="MAINPAGE"></div>
-  <div class="container">
-    <div class="myface">
-      <img src="src/img/myface.jpg" alt="maface">
+
+      <main>
+        <h1>최인규의 포트폴리오 ~~!</h1>
+        <p>저는 <strong>한국 최고의 AI 엔지니어</strong>가 될 것입니다 !!</p>
+        <p>저의 개발 스택들을 보시자면</p>
+        <div class="stack">
+          <div class="stack-item">
+            <img src="src/img/AWS.png" alt="AWS" />
+            <p>AWS - 아마존 웹 서비스</p>
+          </div>
+          <div class="stack-item">
+            <img src="src/img/python.png" alt="Python" />
+            <p>파이썬</p>
+          </div>
+          <div class="stack-item">
+            <img src="src/img/HTMLCSS.png" alt="HTML & CSS" />
+            <p>HTML & CSS</p>
+          </div>
+          <div class="stack-item">
+            <img src="src/img/TF.png" alt="TensorFlow" />
+            <p>텐서플로우</p>
+          </div>
+          <div class="stack-item">
+            <img src="src/img/Flask.png" alt="Flask" />
+            <p>플라스크</p>
+          </div>
+        </div>
+        <p style="display: block">들을 다룰 줄 압니다.</p>
+        <p>다른 경력들을 보시자면,</p>
+        <div class="stack-qualification" id="QUALIFICATION">
+          <h2>자격증</h2>
+          <ul>
+            <div class="stack-qualifications-p">
+              <p>정보처리기능사 ( 실기쳐야댐 )</p>
+              <p>리눅스마스터기능사 ( X )</p>
+            </div>
+            <div class="stack-qualifications-li">
+              <li>정보처리기능사 ( 실기쳐야댐 )</li>
+              <li>리눅스마스터기능사 ( X )</li>
+            </div>
+          </ul>
+        </div>
+        <br />
+        <div class="stack-achievements">
+          <h2>성취경력</h2>
+          <ul>
+            <div class="stack-achievements-li">
+              <li>의성 해커그라운드 해커톤 <b>장려상</b></li>
+              <li>경소고 알고리즘 동아리 내 대회 2등</li>
+              <li><b>Apple Foundation Program @ POSTECH</b> 4기 졸업생</li>
+            </div>
+            <div class="stack-achievements-p">
+              <p>의성 해커그라운드 해커톤 <b>장려상</b></p>
+              <p>경소고 알고리즘 동아리 내 대회 2등</p>
+              <p><b>Apple Foundation Program @ POSTECH</b> 4기 졸업생</p>
+            </div>
+          </ul>
+        </div>
+        <div class="stack-projects">
+          <h2>작업물</h2>
+          <ul>
+            <div class="stack-projects-li">
+              <li><b>YOLO & FastAPI</b>를 이용한 날씨 분류기</li>
+            </div>
+            <div class="stack-projects-p">
+              <p><b>YOLO & FastAPI</b>를 이용한 날씨 분류기</p>
+            </div>
+          </ul>
+        </div>
+      </main>
     </div>
-    
-    <main>
-      <h1>최인규의 포트폴리오 ~~!</h1>
-      <p>저는 <strong>한국 최고의 AI 엔지니어</strong>가 될 것입니다 !! </p>
-      <p>저의 개발 스택들을 보시자면</p>
-      <div class="stack">
-        <div class="stack-item">
-          <img src="src/img/AWS.png" alt="AWS">
-          <p>AWS - 아마존 웹 서비스</p>
+
+    <div
+      style="
+        height: auto;
+        background-color: #f8f9fa;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <h3 id="CONTACT" class="contact-header">연락주십쇼</h3>
+      <footer>
+        <div class="contact-item">
+          <a href="https://github.com/yeeeengyu" target="_blank"
+            ><img src="src/linksimg/github.png" alt="Github" />
+            <p>깃허브</p></a
+          >
         </div>
-        <div class="stack-item">
-          <img src="src/img/python.png" alt="Python">
-          <p>파이썬</p>
+        <div class="contact-item">
+          <a href="https://www.instagram.com/zhnzx.8/" target="_blank"
+            ><img src="src/linksimg/insta.png" alt="Instagram" />
+            <p>인스타그램</p></a
+          >
         </div>
-        <div class="stack-item">
-          <img src="src/img/HTMLCSS.png" alt="HTML & CSS">
-          <p>HTML & CSS</p>
+        <div class="contact-item">
+          <a href="https://velog.io/@yeeeengyu/posts" target="_blank"
+            ><img src="src/linksimg/velog.png" alt="Velog" />
+            <p>벨로그</p></a
+          >
         </div>
-        <div class="stack-item">
-          <img src="src/img/TF.png" alt="TensorFlow">
-          <p>텐서플로우</p>
-        </div>
-        <div class="stack-item">
-          <img src="src/img/Flask.png" alt="Flask">
-          <p>플라스크</p>
-        </div>
-      </div>
-      <p style="display: block;">들을 다룰 줄 압니다.</p>
-      <p>다른 경력들을 보시자면,</p>
-      <div class="stack-qualification" id="QUALIFICATION">
-        <h2>자격증</h2>
-        <ul>
-          <div class="stack-qualifications-p">
-            <p>정보처리기능사 ( 실기쳐야댐 )</p>
-            <p>리눅스마스터기능사 ( X )</p>
-          </div>
-          <div class="stack-qualifications-li">
-            <li>정보처리기능사 ( 실기쳐야댐 )</li>
-            <li>리눅스마스터기능사 ( X )</li>
-          </div>
-        </ul>
-      </div>
-      <br>
-      <div class="stack-achievements">
-        <h2>성취경력</h2>
-        <ul>
-          <div class="stack-achievements-li">
-            <li>의성 해커그라운드 해커톤 <b>장려상</b></li>
-            <li>경소고 알고리즘 동아리 내 대회 2등</li>
-            <li><b>Apple Foundation Program @ POSTECH</b> 4기 졸업생</li>
-          </div>
-          <p>의성 해커그라운드 해커톤 <b>장려상</b></p>
-          <p>경소고 알고리즘 동아리 내 대회 2등</p>
-          <p><b>Apple Foundation Program @ POSTECH</b> 4기 졸업생</p>
-        </ul>
-      </div>
-    </main>
-  </div>
-  
-  
-  <div style="height: auto; background-color: #f8f9fa; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-    <h3 id="CONTACT" class="contact-header">연락주십쇼</h3>
-    <footer>
-      <div class="contact-item">
-        <a href="https://github.com/yeeeengyu" target="_blank"><img src="src/linksimg/github.png" alt="Github"><p>깃허브</p></a>
-        
-      </div>
-      <div class="contact-item">
-        <a href="https://www.instagram.com/zhnzx.8/" target="_blank"><img src="src/linksimg/insta.png" alt="Instagram"><p>인스타그램</p></a>
-      </div>
-      <div class="contact-item">
-        <a href="https://velog.io/@yeeeengyu/posts" target="_blank"><img src="src/linksimg/velog.png" alt="Velog"><p>벨로그</p></a>
-      </div>
-    </footer>
-    <p style="display: flex; margin: 0px; justify-content: center; line-height: 30px;">📨 chldlsrb08@naver.com 📨</p>
-    <p style="display: flex; margin: 0px; justify-content: center; line-height: 30px;">☎️ 010-8269-9915 ☎️</p>
-    <p style="display: flex; margin: 0px; justify-content: center; font-size: 10px; line-height: 30px; color: gray; margin: 10px;">Made by Ingyu Choi.</p>
-  </div>
-</body>
+      </footer>
+      <p
+        style="
+          display: flex;
+          margin: 0px;
+          justify-content: center;
+          line-height: 30px;
+        "
+      >
+        📨 chldlsrb08@naver.com 📨
+      </p>
+      <p
+        style="
+          display: flex;
+          margin: 0px;
+          justify-content: center;
+          line-height: 30px;
+        "
+      >
+        ☎️ 010-8269-9915 ☎️
+      </p>
+      <p
+        style="
+          display: flex;
+          margin: 0px;
+          justify-content: center;
+          font-size: 10px;
+          line-height: 30px;
+          color: gray;
+          margin: 10px;
+        "
+      >
+        Made by Ingyu Choi.
+      </p>
+    </div>
+  </body>
 </html>

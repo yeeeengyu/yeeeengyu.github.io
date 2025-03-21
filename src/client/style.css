@@ -98,7 +98,9 @@ nav a {
 .stack-qualifications-p {
   display: none;
 }
-
+.stack-projects-p {
+  display: none;
+}
 /* Footer */
 footer {
   display: flex;
@@ -141,6 +143,10 @@ footer {
   * {
     text-align: center;
   }
+  .myface {
+    width: 300px;
+    padding-top: 30px;
+  }
   .stack-qualifications-p {
     display: block;
   }
@@ -159,5 +165,11 @@ footer {
   #maface {
     margin: 10px;
     width: 80%;
+  }
+  .stack-projects-li {
+    display: none;
+  }
+  .stack-projects-p {
+    display: block;
   }
 }
