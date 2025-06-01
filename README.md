@@ -1,2 +1,2 @@
 # yeeeengyu.github.io
-github.io test
+github pages test
