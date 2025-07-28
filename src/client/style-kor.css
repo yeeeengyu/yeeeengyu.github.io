@@ -16,13 +16,13 @@ body {
   border: 0;
 }
 
-/* Header */
+
 header {
   position: fixed;
   width: 100%;
 }
 
-/* Navigation */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -64,16 +64,15 @@ nav a {
   font-size: large;
 }
 
-/* Main */
 .container {
   display: flex;
-  flex-direction: row; /* 가로 정렬로 변경 */
+  flex-direction: row;
   align-items: center;
-  justify-content: center; /* 중앙 정렬 */
-  gap: 50px; /* 요소 간 간격 조정 */
+  justify-content: center;
+  gap: 50px; 
 }
 .myface img {
-  width: 400px; /* 이미지 크기 조정 */
+  width: 400px; 
   border-radius: 10%;
 }
 .stack {
@@ -99,7 +98,8 @@ nav a {
 .stack-qualifications-p {
   display: none;
 }
-/* Footer */
+
+
 footer {
   display: flex;
   align-items: center;
@@ -130,6 +130,8 @@ footer {
 .stack-projects-p {
   display: none;
 }
+
+
 @media (max-width: 1143px) {
   .container {
     flex-direction: column;
